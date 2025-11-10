@@ -51,7 +51,7 @@ jobs:
           flavor: |
             latest=false
           images: |
-            ghcr.io/luislavena/hydrofoil-php
+            ghcr.io/ifox/hydrofoil-php
           tags: |
             type=raw,${{ matrix.php_full_version }}
             type=raw,${{ matrix.php_full_version }}-${{ env.HYDROFOIL_PHP_COMMIT }}

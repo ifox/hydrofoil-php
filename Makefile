@@ -2,7 +2,7 @@ VERSION ?= 8.4
 REGISTRY ?= ghcr.io
 
 DOCKERFILE := docker/${VERSION}/Dockerfile
-IMAGE_NAME := ${REGISTRY}/luislavena/hydrofoil-php
+IMAGE_NAME := ${REGISTRY}/ifox/hydrofoil-php
 
 GOSS_FILE := docker/${VERSION}/goss.yaml
 export GOSS_FILE
